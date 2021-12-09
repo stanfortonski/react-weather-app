@@ -1,0 +1,1 @@
+export const WEATHERBIT_API_KEY = '948fa977c580408fb38b115b8d9cdf30';

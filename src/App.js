@@ -1,19 +1,13 @@
+import Container from "./components/Layout/Container";
 import Footer from "./components/Layout/Footer";
-import Header from "./components/Layout/Header";
-import Weather from "./components/Weather/Weather";
+import WeatherCard from "./components/WeatherCard";
 
 function App() {
     return (
         <div className="app">
-            <Header />
-
-            <div className="container">
-                <div className="row">
-                    <div className="col">
-                        <Weather />
-                    </div>
-                </div>
-            </div>
+            <Container>
+                <WeatherCard />
+            </Container>
 
             <Footer />
         </div>

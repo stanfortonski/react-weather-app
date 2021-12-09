@@ -3,6 +3,6 @@ import App from '../App';
 
 test('<App />', () => {
     render(<App />);
-    const linkElement = screen.getByText(/React Weather App/i);
+    const linkElement = screen.getByText(/react-weather-app/i);
     expect(linkElement).toBeInTheDocument();
 });
