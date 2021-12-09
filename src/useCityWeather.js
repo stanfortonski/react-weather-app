@@ -11,7 +11,6 @@ export default function useCityWeather(){
     const updateWeather = () => {
         getWeather(city).then(res => {
             _setWeather(res.data.data[0]);
-            console.log(res.data.data[0]);
         });
     }
 
